@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.nav
+{
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    background: linear-gradient(to right, #00acf0, #0014ca);
+    top: 0;
+}
+
+.nav img
+{
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.top-section
+{
+    position: absolute;
+    width: 100%;
+    height: 85vh;
+    background: linear-gradient(to right, #00acf0, #0014ca);
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side
+{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+.left-side h4
+{
+    margin-top: 10px;
+}
+
+.right-side
+{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side img
+{
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
+.card-div {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  position: relative;
+  width: 15rem;
+  height: 12rem;
+  margin: 5px;
+  background: #000;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.card1 {
+  background: url("https://jctdevelopment.com/wp-content/uploads/2019/12/Stock-Photo.jpg")
+    center/cover no-repeat;
+}
+.card2 {
+  background: url("https://gupshups.org/wp-content/uploads/2019/11/Welcome-speech-for-children%E2%80%99s-day-1024x536.jpg")
+    center/cover no-repeat;
+}
+.card3 {
+  background: url("https://static.toiimg.com/thumb/msid-67716864,width-1200,height-900,resizemode-4/.jpg")
+    center/cover no-repeat;
+}
+.card4 {
+  background: url("https://www.wikihow.com/images/thumb/3/3c/Write-a-Visit-Report-Step-12.jpg/aid9822428-v4-1200px-Write-a-Visit-Report-Step-12.jpg")
+    center/cover no-repeat;
+}
+.card5 {
+  background: url("https://resources.pollfish.com/wp-content/uploads/2019/12/blog-covers-1-1024x578.png")
+    center/cover no-repeat;
+}
+.card6 {
+  background: url("https://sanjivaniacs.org.in/wp-content/uploads/q-a-300x300.jpg")
+    center/contain no-repeat;
+}
+.card7 {
+  background: url("https://images.indianexpress.com/2022/01/Webp.net-resizeimage-61.jpg")
+    center/contain no-repeat;
+}
+.card8 {
+  background: url("https://blog.hubspot.com/hubfs/A%20woman%20using%20presentation%20design%20trends%20to%20create%20a%20compelling%20presentation.jpg")
+    center/contain no-repeat;
+}
+.card9 {
+  background: url("https://cdnmedia.eurofins.com/european-west/media/1928530/button-accreditations.jpg")
+    center/contain no-repeat;
+}
+
+.card-content {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  background: rgba(0, 0, 0, 0.884);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  transition: all 0.2s ease-in-out;
+  transform: translateY(90px);
+  font-family: 'Open Sans', sans-serif;
+  padding: 2px;
+}
+
+.card-content h1 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+}
+.card-content a {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px rgb(255, 0, 0);
+}
+
+.card1:hover .card-content1 {
+  transform: translateY(0px);
+}
+.card2:hover .card-content2 {
+  transform: translateY(0px);
+}
+.card3:hover .card-content3 {
+  transform: translateY(0px);
+}
+.card4:hover .card-content4 {
+  transform: translateY(0px);
+}
+.card5:hover .card-content5 {
+  transform: translateY(0px);
+}
+.card6:hover .card-content6 {
+  transform: translateY(0px);
+}
+.card7:hover .card-content7 {
+  transform: translateY(0px);
+}
+.card8:hover .card-content8 {
+  transform: translateY(0px);
+}
+.card9:hover .card-content9 {
+  transform: translateY(0px);
+}
+
